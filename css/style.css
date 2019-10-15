@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    padding: 20px;
+  }
+  table, tr, td {
+    border: 1px solid #000;
+  }
+  td {
+    padding: 5px;
+  }
+  .btnAdd {
+    margin-top: 20px;
+  }
+  .modalWindow {
+    display: none;
+    position: fixed;
+    margin-top: 100px;
+    margin-left: -200px;
+    top: 0;
+    left: 50%;
+    width: 400px;
+    height: 200px;
+    background: #ff0;
+    border: 1px solid #000;
+    padding: 30px;
+  }
+  .modal-visible {
+    display: block;
+  }
+  .modalWindow input {
+    margin-top: 10px;
+  }
+  .modalWindow .save {
+    margin-top: 10px;
+  }
